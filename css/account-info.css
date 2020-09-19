@@ -1,0 +1,334 @@
+#account_info
+{
+width:25%;
+height:88%;
+padding-top:1%;
+padding-left:1.5%;
+padding-right:1%;
+z-index:10;
+background:rgb(250,250,250);
+padding:0 0 0 2;
+float:right;
+display:none;
+}
+#account_info #acccontainer
+{
+margin:auto;
+width:90%;
+height:95%;
+}
+/*-----IMAGE CONTAINER-----*/
+#account_info #imgcontainer
+{
+width:94%;
+height:42%;
+padding:2% 3% 2% 3%;
+}
+#account_info #imgcontainer #pic
+{
+border-radius:5px;
+width:100%;
+height:95%;
+}
+#account_info #imgcontainer #changepic
+{
+height:20px;
+width:20px;
+z-index:10;
+margin:-10% 0 0 88%;
+cursor:pointer;
+}
+/*-----UPLAOD PIC-----*/
+#account_info #imgcontainer #uploadpic
+{
+border-radius:5px;
+width:100%;
+height:100%;
+display:none;
+z-index:10;
+padding:0 0 0 2;
+border-radius:5px;
+}
+#account_info #imgcontainer #uploadpic #drop-files
+{
+width:94%;
+height:94%;
+border:#2c82c9 3px solid;
+padding:1% .5%;
+margin:auto;
+text-align: center;
+font-size:25px;
+font-weight: bold;
+font-family: Arial, sans-serif;
+color:#FF0000;
+}
+#account_info #imgcontainer #uploadpic #drop-files #text
+{
+width:50%;
+height:50%;
+margin:20% auto;
+font-size:25px;
+font-weight:bold;
+color:#CCCCCC;
+text-align:center;
+font-family: Arial, sans-serif;
+}
+#account_info #imgcontainer #uploadpic #drop-files #uploaded-holder
+{
+width:90%;
+margin:5% auto;
+height:90%;
+display:none;
+}
+#account_info #imgcontainer #uploadpic #drop-files #uploaded-holder #dropped-files .image 
+{
+width:90%;
+margin:auto;
+height:80%;
+border: 4px solid #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+border-radius: 4px;
+overflow: hidden;
+}
+#upload-button
+{
+width:40%;
+height:15%;
+background:#33CCFF;
+border:none;
+border-radius:5px;
+color: #fff;
+font-weight: bold;
+margin:2%;
+cursor:pointer;
+}
+#delete-button
+{
+width:25%;
+height:8%;
+background: rgba(0,0,0,0.6);
+border:none;
+border-radius:5px;
+color: #fff;
+font-size: 10px;
+cursor:pointer;
+}
+#loading-bar
+{
+display:none;
+width:90%;
+height:3%;
+margin:auto;
+background:#33CCFF;
+border:1px solid #2c82c9;
+font-weight: bold;
+margin:2%;
+}
+#loading-bar .loading-color 
+{
+width: 0%;
+height: 100%;
+-webkit-transition: all 0.1s ease-in;
+-moz-transition: all 0.1s ease-in;
+-ms-transition: all 0.1s ease-in;
+-o-transition: all 0.1s ease-in;
+transition: all 0.1s ease-in;
+border-radius: inherit;
+background: #2c82c9;
+}
+#account_info #imgcontainer #uploadpic #showmypics
+{
+float:left;
+}
+#account_info #imgcontainer #uploadpic #cancel
+{
+float:right;
+}
+/*-------DISLAY USERS PIC--------*/
+#usersprofilepix
+{
+width:100%;
+height:15%;
+display:none;
+margin-top:5%;
+}
+#usersprofilepix .userpix
+{ 
+width:32.3%;
+height:100%;
+float:left;
+margin:0 1% 0 0;
+}
+#usersprofilepix .userpix img
+{
+width:100%;
+height:90%;
+border-radius:3px;
+cursor:pointer;
+}
+#usersprofilepix .userpix .delpic
+{
+height:auto;
+text-align:center;
+cursor:pointer;
+font-family: Arial, sans-serif;
+font-size:10px;
+cursor:pointer;
+}
+#nomore
+{
+width:80%;
+margin:auto;
+height:80%;
+background:#FF0000;
+display:none;
+}
+#account_info #imgcontainer #imgoverlay
+{
+display:none;
+position:relative;
+width:100%;
+height:100%;
+border-radius:5px;
+background:rgba(230,230,230, .5);
+}
+/*------INFO-----*/
+#account_info #acccontainer #info
+{
+width:100%;
+height:58%;
+}
+#account_info #acccontainer #info .name
+{
+width:30%;
+margin:auto;
+font-size:35px;
+text-transform:capitalize;
+margin:1% 0 0 5%;
+color:#2c82c9;
+}
+#account_info #acccontainer #info .username
+{
+margin:auto;
+font-size:20px;
+color:#CCCCCC;
+margin:1% 0 0 7%;
+}
+#account_info #acccontainer #info #email
+{
+margin:auto;
+font-size:20px;
+margin:1% 0 0 5%;
+}
+#account_info #acccontainer #info #changepwd, #account_info #acccontainer #info #delaccount
+{
+text-align:left;
+font-size:20px;
+color:#2c82c9;
+cursor:pointer;
+margin:1% 0 0 5%;
+height:30px;
+}
+#account_info #acccontainer #info #cpwd, #account_info #acccontainer #info #newpwd, #account_info #acccontainer #info #cnewpwd, #account_info #acccontainer #info #cpwdwd
+{
+display:none;
+font-size:18px;
+width:90%;
+height:30px;
+border:none;
+padding-left:5px;
+border-radius: 3px;
+margin:1% 0 1% 5%;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+#account_info #acccontainer #info #delaccount
+{
+color:#FF0000;
+}
+#account_info #acccontainer #info #cfrmtndlg
+{
+width:80%;
+margin:auto;
+height:auto;
+color:#FF0000;
+display:none;
+}
+#account_info #acccontainer #info #cfrmtndlg button
+{
+float:left;
+width:30%;
+margin-right:2%;
+height:25px;
+border:none;
+border-radius:3px;
+background:#2c82c9;
+color:#FFFFFF;
+cursor:pointer;
+}
+#account_info #acccontainer #info #cfrmtndlg img
+{
+width:25px;
+height:25px;
+display:none;
+}
+#textfields
+{
+float:right;
+width:70%;
+padding-top:5%;
+}
+.edit input[type="text"], .edit input[type="password"], #confirmid
+{
+display:none;
+height:40px;
+width:70%;
+font-size:16px;
+padding:2 2 2 5;
+margin-bottom:2px;
+border:none;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+#confirmid
+{
+width:55%;
+}
+input[type="text"]:focus,input[type="password"]:focus
+{
+background:rgb(238, 236, 240);
+border:none;
+}
+#account_info #back
+{
+width:25px;
+height:25px;
+float:right;
+border-radius:50%;
+margin:.5% auto;
+}
+#account_info  #back span
+{
+content: '';
+height:0;
+width:0;
+display:block;
+border-color: transparent  transparent transparent #2c82c9 ;
+border-style:solid;
+border-width:8px;
+margin:20% 45% 0 0;
+cursor:pointer;
+}

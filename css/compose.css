@@ -1,0 +1,240 @@
+#c_area #to, #c_area #subject
+{
+width:90%;
+height:6%;
+border:none;
+margin:1% 1% 0 4%;
+padding-left:1%;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+#c_area input[type="text"]:focus
+{
+background:rgb(238, 236, 240);
+border:none;
+}
+#c_area #to
+{
+width:80%;
+}
+#c_area #close
+{
+float:right;
+margin:5px;
+cursor:pointer;
+}
+#c_area input.sendbutton
+{
+height:7%;
+width:8%;
+border:none;
+border-radius:3px;
+background:#2c82c9;
+color:#FFFFFF;
+cursor:pointer;
+}
+#c_area #spinner
+{
+width:40px;
+height:40px;
+position:absolute;
+float:left;
+display:none;
+margin-top:.5%;
+}
+#c_area #attachments
+{
+width:95%;
+height:6%;
+margin:auto;
+border:3px dashed #999999;
+padding:.5%;
+}
+#c_area #attachments #text
+{
+width:50%;
+height:60%;
+margin:auto;
+font-size:30px;
+font-weight:bold;
+color:#CCCCCC;
+text-align:center;
+font-family: Arial, sans-serif;
+}
+#c_area #attachments #attachname
+{
+width:20%;
+height:45%;
+padding:.5%;
+margin-left:.5%;
+border-radius:3px;
+background:#2c82c9;
+color:#FFFFFF;
+}
+#c_area #attachments #attachedfiles img
+{
+height:10px;
+width:10px;
+margin-left:2px;
+cursor:pointer;
+}
+#c_area #attachments #attachuploaded-holder
+{
+width:98%;
+height:98%;
+margin:auto;
+display:none;
+}
+#c_area #attachments #attachuploaded-holder span
+{
+display: block;
+width: 160px;
+text-align: center;
+background:#CCCCCC;
+border-radius: 10px;
+font-size: 14px;
+padding: 4px 0;
+position: relative;
+}
+#c_area #attachments #attachupload-button , #c_area #attachments #attachloading-bar
+{
+width:10%;
+height:40%;
+background:#33CCFF;
+border:none;
+border-radius:5px;
+color: #fff;
+font-weight: bold;
+cursor:pointer;
+display:inline;
+}
+#c_area #attachments #attachloading-bar
+{
+display:none;
+width:15%;
+height:5%;
+border:1px solid #2c82c9;
+}
+#c_area #attachments #attachloading-bar .attachloading-color 
+{
+width: 0%;
+height: 100%;
+-webkit-transition: all 0.1s ease-in;
+-moz-transition: all 0.1s ease-in;
+-ms-transition: all 0.1s ease-in;
+-o-transition: all 0.1s ease-in;
+transition: all 0.1s ease-in;
+border-radius: inherit;
+background:#2c82c9;
+}
+#c_area #keypopup
+{
+position:fixed;
+width:310px;
+height:70px;
+margin:-435px 0 0 420px;
+background:#FFFFFF;
+padding:5 5 10 5;
+display:none;
+font-family: Sans-Serif;
+font-size:13px;
+font-weight:lighter;
+color:rgb(20,20,20);
+z-index:10;
+}
+#c_area #keypopup img
+{
+height:10px;
+width:10px;
+cursor:pointer;
+float:right;
+}
+#c_area #keypopup span
+{
+float:left;
+margin-top:5px;
+}
+#c_area #keypopup input[type="text"]
+{
+font-size: 12px;
+width: 200px;
+border: solid 1px #cccccc;
+margin: 0 5px !important;
+height: 25px;
+line-height: 21px;
+display: block;
+padding: 2px;
+float: left;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 0;
+-webkit-border-radius: 0;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+box-shadow: none;
+-webkit-box-shadow: none;
+outline: 0;
+}
+#c_area #keypopup input[type="text"]:focus  
+{
+border: solid 1px #54acd2;
+}
+/*---placeholder---*/
+::-webkit-input-placeholder
+{ 
+color: rgb(190, 188, 188); 
+font-style: italic;
+font-size:16px;
+}
+::-moz-placeholder
+{
+color: rgb(190, 188, 188); 
+font-style: italic;
+font-size:16px;
+}
+#c_area #keypopup button
+{
+background: #2c82c9;
+color: #ffffff;
+height:25px;
+width:27px;
+min-width: 16px;
+outline:none;
+text-align:center;
+border:0;
+padding:2px 5px;
+margin:0;
+margin-left:-5px;
+font-size:12px;
+font-weight: 400;
+cursor:pointer;
+float:left;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+-webkit-transition: background linear 0.2s;
+-moz-transition: background linear 0.2s;
+}
+#c_area #keypopup button:hover
+{
+background:#000000;
+}
+#c_area #keypopup #destruct
+{
+float:left;
+margin:3 10;
+}
+#c_area #keypopup #canenc
+{
+float:right;
+margin:5 10;
+cursor:pointer;
+}

@@ -1,0 +1,195 @@
+body
+{
+background:#333333;
+}
+body:after 
+{
+content: "";
+z-index: -1;
+position: absolute;
+top: 0; right: 0; bottom: 0; left: 0;
+background: -webkit-radial-gradient(center center, circle cover, rgba(100,100,100,0), rgba(0,0,0,0.5));
+background: -moz-radial-gradient(center center, circle cover, rgba(100,100,100,0), rgba(0,0,0,0.5));
+background: -ms-radial-gradient(center center, circle cover, rgba(100,100,100,0), rgba(0,0,0,0.5));
+background: -o-radial-gradient(center center, circle cover, rgba(100,100,100,0), rgba(0,0,0,0.5));
+background: radial-gradient(center center, circle cover, rgba(100,100,100,0), rgba(0,0,0,0.5));
+}
+#title
+{
+margin:5% auto;
+width:100px;
+height:100px;
+}
+#title img
+{
+width:100px;
+height:100px;
+float:left;
+}
+#title p
+{
+font: 20px "Times New Roman", Times, serif;
+font-weight:bold;
+color:#2c82c9;
+text-align:center;
+}
+/*---LOGIN FORM---*/
+.login
+{
+margin:7% auto;
+padding:2%;
+width:31%;
+width:310px;
+height:30%;
+height:300px;
+border-radius: 3px;
+font-family:Berlin Sans FB Demi;
+-moz-box-shadow:.5px 1px .5px rgba(100,100,100,0);
+-webkit-box-shadow:.5px 1px .5px rgba(100,100,100,0);
+box-shadow:.5px 1px .5px rgba(100,100,100,0);
+background: rgb(150, 150, 150);
+background: -webkit-radial-gradient(center center, circle cover, rgba(100,150,150,0), rgba(100,100,100,0.5));
+background: -moz-radial-gradient(center center, circle cover, rgba(100,150,150,0), rgba(100,100,100,0.5));
+background: -ms-radial-gradient(center center, circle cover, rgba(100,150,150,0), rgba(100,100,100,0.5));
+background: -o-radial-gradient(center center, circle cover, rgba(100,150,150,0), rgba(100,100,100,0.5));
+background: radial-gradient(center center, circle cover, rgba(100,150,150,0), rgba(100,100,100,0.5));
+-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+-moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+}
+.name,.password
+{
+font-size:18px;
+width:100%;
+height:40px;
+font-family: "Helvetica Neue", Arial, sans-serif;
+margin-bottom:1%;
+padding-left:45px;
+border:none;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+/*---icon---*/
+#login input.name 
+{
+background: #fff url(../data/data/user.png) 5px 4px no-repeat;
+}
+#login input.password
+{
+background: #fff url(../data/data/password.png) 5px 4px no-repeat;
+}
+/*---icon after focus---*/
+#login input.name:focus
+{
+background:url(../data/data/user.png) 5px 4px no-repeat rgb(238, 236, 240);
+border:none;
+}
+#login input.password:focus
+{
+background: url(../data/data/password.png) 5px 4px no-repeat rgb(238, 236, 240);
+border:none;
+}
+/*---placeholder---*/
+::-webkit-input-placeholder
+{ 
+color: rgb(190, 188, 188); 
+font-style: italic;
+font-size:16px;
+}
+::-moz-placeholder
+{
+color: rgb(190, 188, 188); 
+font-style: italic;
+font-size:16px;
+}
+.su_info
+{
+text-align:left;
+}
+#rem_info
+{
+display:none;
+background:#FFFFFF;
+text-align:left;
+margin-right:20px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:normal;
+}
+.msg
+{
+color:#CC0000;
+font-family:Arial, Helvetica, sans-serif
+}
+.login a
+{
+color:#2c82c9;
+}
+#signin
+{
+font-size:18px;
+font-weight:bold;
+text-align:center;
+border:0;
+color:#FFFFFF;
+border-radius: 3px;
+height:40px;
+width:100%;
+cursor:pointer;
+background:#2c82c9;
+color:#FFFFFF;
+}
+#signin:hover
+{
+border:#0066FF solid .01em;
+color:#FFCC99;
+opacity:1;
+}
+#demo
+{
+float:left;
+border:0;
+text-align:center;
+height:25px;
+font-size:18px;
+width:25%;
+cursor:pointer;
+background:#2c82c9;
+color:#FFFFFF;
+}
+.help
+{
+float:right;
+}
+.li_links
+{
+text-align:right;
+}
+button
+{
+text-transform:uppercase;
+font-weight:bold;
+text-align:center;
+border:0;
+margin-top:10px;
+color:#FFFFFF;
+border-radius:0.2em;
+height:40px;
+width:100%;
+cursor:pointer;
+background:#2c82c9;
+color:#FFFFFF;
+}
+button:hover
+{ 
+border:#990000 outset .01em;
+color:#999999;
+}

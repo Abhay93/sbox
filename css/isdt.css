@@ -1,0 +1,72 @@
+#inboxcntnt, #sentcntnt, #searchcntnt, #trashcntnt, #omsgscntnt
+{
+width:100%;
+height:100%;
+overflow:auto;
+}
+#inboxcntnt::-webkit-scrollbar
+{
+width:13px;
+}
+#inboxcntnt::-webkit-scrollbar-button:start:decrement, #inboxcntnt::-webkit-scrollbar-button:end:increment  
+{
+display: none;
+}
+#inboxcntnt::-webkit-scrollbar-track-piece
+{
+background:rgba(150,150,150,.5);
+}
+#inboxcntnt::-webkit-scrollbar-thumb:vertical
+{
+-webkit-border-radius:2px;
+background:#666666;
+-webkit-box-shadow:inset 0 0 2px;
+}
+#isdtcontent
+{
+width:98%;
+height:65px;
+margin:.5% auto .5% auto;
+border-radius:2px;
+background:rgba(150,150,150,.5);
+padding:.5% 1%;
+cursor:pointer;
+}
+#isdtcontent:hover
+{
+background:rgba(150,150,150,1);
+}
+#isdtcontent input[type='checkbox']
+{
+float:left;
+margin-top:2%;
+}
+#isdtcontent #msgpic
+{
+float:left;
+height:75%;
+width:5%;
+margin-left:1%;
+margin-top:1%;
+}
+#isdtcontent #sub, #isdtcontent #meta
+{
+float:right;
+width:90%;
+margin-bottom:.2%;
+color:#FFFFFF;
+font-size:16px;
+}
+#isdtcontent #meta #sndr
+{
+float:left;
+font-weight:bold;
+font-size:18px;
+width:60%;
+}
+#isdtcontent #meta #metadate
+{
+float:right;
+font-weight:normal;
+font-size:12px;
+}
